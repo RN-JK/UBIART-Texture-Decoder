@@ -13,7 +13,7 @@ try:
 
     print('The directories have been made.')
     
-    input('Insert your textures in input/wiiu and then run the tool again to convert it.')
+    input('Insert your textures in input/nx and then run the tool again to convert it.')
 
 except:
     pass
