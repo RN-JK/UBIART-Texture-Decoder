@@ -43,7 +43,7 @@ except:
 try:
     for xtx in os.listdir(dir):
         print('making '+xtx.replace(".xtx","")+'...')
-        os.system("xtx_extract -i input/temp/"+xtx+" -o output/"+xtx.replace(".xtx",".dds"))
+        os.system("xtx_extract -o output/"+xtx.replace(".xtx",".dds")+" input/temp/"+xtx)
 
 except:
     pass
